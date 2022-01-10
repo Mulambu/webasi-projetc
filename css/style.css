@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255,255,255,.9);
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+.banniere{
+    height: 30vmax;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #0000,#000f), url("../img/IMG_0433.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: slide 5s infinite;
+}
+
+@keyframes slide{
+    from{
+        background-image: linear-gradient(to bottom, #0000,#000f), url("../img/IMG_0433.PNG");
+    }
+    to{
+        background-image: linear-gradient(to bottom, #0000,#000f), url("../img/IMG_0423.JPG");
+    }
+}
+.ban-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: sandybrown
+}
+.footer{
+    background-color: #212329;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+.footer h6{
+    padding-top: 15px;
+}
+
+.card{
+    margin-top: 10px;
+    transition: transform 0.9s;
+}
+
+.section-content .card:hover{
+    transform: translateY(-5px);
+}
+@media screen and (max-width: 630px){
+   h3,h1{
+       font-size: 18px;
+   }
+ 
+}
+
+@media screen and (max-width : 310px){
+    h3,h1{
+        font-size: 15px;
+    }
+}

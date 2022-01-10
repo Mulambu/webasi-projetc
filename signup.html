@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiere page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar bg-dark navbar-dark navbar-expand-sm">
+       <div class="container-fluid">
+        <a href="" class="navbar-brand">Webasi</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#NavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="NavMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Actualite</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="signup.html" class="nav-link">Inscription</a></li>
+            </ul>
+        </div>
+       </div>
+    </header>
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-6">
+                <h3 class="mb-4">Inscrivez-vous gratuitement</h3>
+                <form action="created_etudiant.html" method="POST">
+                    <div class="form-group">
+                        <label for="inputName">Nom</label>
+                        <input type="text" class="form-control" id="inputName"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSecondName">PostNom</label>
+                        <input type="text" class="form-control" id="inputSecondName"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="adresse">Adresse</label>
+                        <input type="text" class="form-control" id="adresse"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">telephone</label>
+                        <input type="tel" class="form-control" id="phone"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="departement">Section</label>
+                        <select class="form-control" id="departement"> 
+                            <option value="0">Technique Medicales</option>
+                            <option value="0">Batiment et traveaux publique</option>
+                            <option value="0">Gestion et Info</option>
+                            <option value="0">Technique Applique</option>
+                            <option value="0">art et Metiers</option>
+                            <option value="0">Devellopement des Milieux Urbain</option>
+                        
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-4">s'inscrit</button>
+                </form>
+            </div>
+        </div>
+  
+    </main>
+    <footer class="footer p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Adresse</h6>
+                    <p>
+                        Av. Luebo N° 01 C/Kimbaseke Q/ 17 Mai
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h6>contact</h6>
+                    <a href="#"> <img src="img/facebook_100px_1.png" alt="" width="35" height="35"> </a>
+                    <a href="#"> <img src="img/google_logo_100px.png" alt="" width="35" height="35"> </a>
+                    <a href="#"> <img src="img/youtube_100px.png" alt="" width="35" height="35"> </a>
+                </div>
+                <div class="col-md-4">
+                    <h6>WebDev</h6>
+                    <p>
+                        <i>copyright &copy; 2022 | easycode delivered by Rab's</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+   
+</body>
+</html>
